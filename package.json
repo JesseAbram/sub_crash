@@ -1,0 +1,25 @@
+{
+  "name": "sub_crash",
+  "version": "0.0.1",
+  "description": "RPC tests for substrate based chains",
+  "main": "index.js",
+  "scripts": {
+    "test": "halva-cli test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseAbram/sub_crash.git"
+  },
+  "author": "Jesse Abramowitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JesseAbram/sub_crash/issues"
+  },
+  "homepage": "https://github.com/JesseAbram/sub_crash#readme",
+  "dependencies": {
+    "@polkadot/api": "^2.3.1",
+    "@polkadot/keyring": "^3.6.1",
+    "halva-cli": "^0.3.3",
+    "should": "^13.2.3"
+  }
+}
